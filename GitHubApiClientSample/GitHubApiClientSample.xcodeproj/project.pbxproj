@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083BAC3624D2E12A00B6BE04 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059248A23E076C60069263F /* Repository.swift */; };
+		083BAC3724D2E18000B6BE04 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059248C23E0778F0069263F /* Owner.swift */; };
+		083BAC3824D2E18600B6BE04 /* SearchRepositoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059249023E078A90069263F /* SearchRepositoryResponse.swift */; };
+		083BAC3924D2E1BD00B6BE04 /* SearchRepositoryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059248E23E078800069263F /* SearchRepositoryRequest.swift */; };
+		083BAC3A24D2E1EA00B6BE04 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059248523E0657D0069263F /* APIService.swift */; };
+		083BAC3B24D2E1ED00B6BE04 /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059248723E06B730069263F /* APIServiceError.swift */; };
+		083BAC3C24D2E2E800B6BE04 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070D9A023E522C600A97392 /* HomeViewModel.swift */; };
+		083BAC3D24D2E31200B6BE04 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059245823DF30A20069263F /* CardView.swift */; };
 		3059245523DF30A20069263F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059245423DF30A20069263F /* AppDelegate.swift */; };
 		3059245723DF30A20069263F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059245623DF30A20069263F /* SceneDelegate.swift */; };
 		3059245923DF30A20069263F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059245823DF30A20069263F /* CardView.swift */; };
@@ -359,9 +367,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				083BAC3824D2E18600B6BE04 /* SearchRepositoryResponse.swift in Sources */,
 				3070D9A523E569C800A97392 /* MockAPIService.swift in Sources */,
 				3059246C23DF30A50069263F /* GitHubApiClientSampleTests.swift in Sources */,
+				083BAC3C24D2E2E800B6BE04 /* HomeViewModel.swift in Sources */,
 				3070D9A323E566C600A97392 /* HomeViewModelTests.swift in Sources */,
+				083BAC3B24D2E1ED00B6BE04 /* APIServiceError.swift in Sources */,
+				083BAC3924D2E1BD00B6BE04 /* SearchRepositoryRequest.swift in Sources */,
+				083BAC3724D2E18000B6BE04 /* Owner.swift in Sources */,
+				083BAC3A24D2E1EA00B6BE04 /* APIService.swift in Sources */,
+				083BAC3D24D2E31200B6BE04 /* CardView.swift in Sources */,
+				083BAC3624D2E12A00B6BE04 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
